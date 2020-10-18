@@ -87,7 +87,9 @@
   height: 100%;
   -webkit-transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
   -o-transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
-  transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4); }
+  transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .descriptions {
   position: absolute;
@@ -277,7 +279,7 @@ main .exc-title:after {
   padding-left: 0; }
 
 .slider img {
-  height: 715px; }
+  width: 100%; }
 
 .description p {
   margin-top: 20px;
@@ -319,7 +321,7 @@ main .exc-title:after {
   margin: 0 auto;
   font-family: nk174;
   padding-top: 20px;
-  height: 150px; }
+  height: 100%; }
 
 .price-box h4 {
   padding-bottom: 10px;
@@ -365,6 +367,9 @@ main .exc-title:after {
 
 .cont-page__item {
   color: #254b6c; }
+
+.cont-page__item span {
+  margin-left: 15px; }
 
 .cont-page__item .item {
   font-family: arial; }
