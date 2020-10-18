@@ -1,0 +1,48 @@
+extends ./../layouts/main.pug
+
+block content
+    include ./../sections/header.pug
+    main
+        .container
+            .row
+                h1.exc-item-h1.col Петербург Достоевского
+
+            nav(aria-label="breadcrumb")
+                ol.breadcrumb.col
+                    li.breadcrumb-item: a(href="index.html") Экскурсии
+                    li(aria-current="page").breadcrumb-item.active Петербург Достоевского
+            .row
+                .slider.col
+                    img( src="img/img1.jpg" alt="")
+            .row
+                .description.col
+                    p.
+                        Если у вас есть какие то интересные предложения, обращайтесь! Студия Web-Boss всегда готова решить любую задачу.
+                        С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу
+                        (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач.
+                        Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Идейные соображения
+                        высшего порядка, а также укрепление и развитие структуры играет важную роль в формировании существенных финансовых и административных условий.
+            .row
+                .info.col-12.col-lg-6
+                    h2.exc-tittle Информация об экскурсии:
+                    .info__item
+                        i.fas.fa-history
+                        span 2 часа
+                    .info__item
+                        i.fas.fa-globe-americas
+                        span Русский
+                    .info__item
+                        i.fas.fa-money-bill
+                        span 800 рублей
+                .price.col-12.col-lg-6
+                    .price-box.col-9.col-lg-6
+                        h4
+                            span 800
+                            |  рублей за человека
+                        button Забронировать
+            .map-item
+                i.fas.fa-map-signs
+                span Место начала Экскурсии:
+                iframe(src="https://yandex.ru/map-widget/v1/?um=constructor%3A560409f1ee79fd103e58748b356da04e0389526012c77743cd8cb40a1c498c23&amp;source=constructor" width="1000" height="445" frameborder="0").map.col-12.col-lg-10
+                div Ул.Достоевского д.1
+    include ./../sections/footer.pug

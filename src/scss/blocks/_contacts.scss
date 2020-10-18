@@ -1,0 +1,62 @@
+.cont-page__item{
+  font-size: 24px;
+  font-family: nk174;
+  margin: 20px 0;
+}
+.page-social {
+  display: flex;
+}
+.page-social {
+  padding: 0;
+}
+
+.page-social li{
+  list-style:none;
+  margin-left: 20px;
+}
+
+.page-social li:first-child{
+  margin-left: 0;
+}
+.cont-page__item{
+  color: #254b6c;
+}
+.cont-page__item .item{
+  font-family: arial;
+}
+.cont-page__item .mail a{
+  font-size: 20px;
+}
+.contacts-flex{
+  display: flex;
+  margin-top: 50px;
+}
+.contacts-flex .messege{
+  background-color: #94b7ca;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts-flex .messege input{
+  margin: 0 0 20px 0;
+  font-family: nk174;
+  border:none;
+  padding: 7px 5px;
+  outline: none;
+}
+
+
+.contacts-flex .messege textarea{
+  font-family: nk174;
+  padding: 7px 5px;
+  outline: none;
+  border:none;
+}
+
+.contacts-flex .messege h3{
+  font-family: nk174;
+  color:white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+}

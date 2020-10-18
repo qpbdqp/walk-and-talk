@@ -1,0 +1,38 @@
+.navbar{
+  background-color: #254b6c;
+  box-shadow: 0px 4px 7px rgba(0,0,0,.5);
+  position: fixed;
+}
+
+.nav-menu{
+  display: flex;
+  jusify-content: center;
+  list-style: none;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+
+.nav-menu__item{
+  text-decoration: none;
+  font-family: nk174;
+  font-size: 30px;
+  margin: 0 25px 0 25px;
+}
+
+.nav-menu__item a{
+  color: white;
+}
+.logo img{
+  height: 195px;
+}
+
+.nav-menu__item :hover{
+  text-decoration: none;
+  color: #7296ad;
+}
+
+.navbar-toggler-icon{
+  color: white;
+  width: 2.5em;
+  height: 2.5em
+}

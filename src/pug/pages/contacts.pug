@@ -1,0 +1,35 @@
+extends ./../layouts/main.pug
+
+block content
+    include ./../sections/header.pug
+    main
+        .container
+            .contatcts.col-12
+                h1 Контакты
+                .contacts-flex.col-12
+                    .contact-items.col-12.col-md-6.col-lg-6
+                        .cont-page__item
+                            i.fas.fa-mobile-alt
+                            span Телефон:
+                            .item
+                                a(href="tel:+7(904)612-15-10").
+                                    +7(904)612-15-10
+                        .cont-page__item
+                            i.far.fa-envelope
+                            span E-mail:
+                            .item.mail
+                                a(href="mailto:mezhov.alexander@gmail.com") mezhov.alexander@gmail.com
+                        .cont-page__item
+                            i.fas.fa-project-diagram
+                            span Социальные сети:
+                            ul.page-social
+                                li: a(href="#"): i.fab.fa-airbnb
+                                li: a(href="#"): i.fab.fa-facebook-square
+                                li: a(href="#"): i.fab.fa-telegram-plane
+                                li: a(href="#"): i.fab.fa-instagram
+                    .messege.col-12.col-lg-6
+                        h3 Отправить сообение
+                        input(type="email" placeholder="Введите почту")
+                        input(type="email" placeholder="Введите почту")
+                        textarea( placeholder="Текст сообщения" name="" id="" cols="30" rows="10")
+    include ./../sections/footer.pug

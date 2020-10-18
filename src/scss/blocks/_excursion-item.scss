@@ -1,0 +1,90 @@
+.exc-item-h1{
+  text-align: left;
+}
+
+.breadcrumb{
+  font-family: nk174;
+  font-size: 25px;
+}
+
+.slider col{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.slider img{
+  height: 715px;
+}
+
+.description p{
+  margin-top: 20px;
+  font-family: nk174;
+  font-size: 20px;
+  color: #254b6c;
+}
+.description p:after {
+  margin-top: 20px;
+  content: '';
+  display: block;
+  height: 3px;
+  background: #254b6c;
+}
+.map-item{
+  font-family: nk174;
+  font-size: 36px;
+  color:#254b6c;
+}
+
+.exc-tittle{
+  text-align: left;
+}
+
+.info__item{
+  font-family: nk174;
+  font-size: 34px;
+  color: #254b6c;
+}
+.info__item span{
+  margin-left: 15px;
+}
+
+.map-item{
+  margin-top: 30px;
+    span{
+      margin-left: 15px;
+    }
+}
+.price-box{
+  display: block;
+  background-color: #94b7ca;
+  margin: 0 auto;
+  font-family: nk174;
+  padding-top: 20px;
+  height: 150px;
+}
+
+.price-box h4{
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.price-box button{
+  text-transform: uppercase;
+  padding: 7px 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: #254b6c;
+  border:none;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.price-box button:focus{
+  outline:none;
+}
+
+.price-box h4 span{
+  font-size: 40px;
+}

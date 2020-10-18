@@ -1,0 +1,36 @@
+extends ./../layouts/main.pug
+
+block content
+    include ./../sections/header.pug
+    main
+        .container
+            h1.exc-title Экскурсии
+            h2 Пешие экскурсии по Санкт-Петербургу
+            .excursion-block
+                .row
+                +card('dost.jpg', 'Петербург Достаевского')
+                    p.
+                        If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert
+                        McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts
+                +card('stalin.jpg', 'Сталин в Петербурге')
+                    p.
+                        If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert
+                        McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts
+                +card('dost.jpg', 'Say yes to revolution!')
+                    p.
+                        If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert
+                        McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts
+                +card('dost.jpg', 'Петербург Бродского')
+                    p.
+                        If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert
+                        McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts
+                +card('dost.jpg', 'Дворы Васльевского острова')
+                    p.
+                        If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert
+                        McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts
+                +card('dost.jpg', 'Блокада Лененграда')
+                    p.
+                        If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert
+                        McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts
+
+    include ./../sections/footer.pug

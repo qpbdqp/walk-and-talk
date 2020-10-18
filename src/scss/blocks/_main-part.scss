@@ -1,0 +1,24 @@
+main h1{
+  font-family: nk174;
+  font-size: 60px;
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #254b6c;
+}
+main h2{
+  font-family: nk174;
+  font-size: 40px;
+  text-align: center;
+  color: #254b6c;
+}
+
+main .exc-title:after {
+  margin: 25px 0 25px 0;
+  content: '';
+  display: block;
+  height: 3px;
+  background: #254b6c;
+  width: 50px;
+  margin: 0 auto;
+}

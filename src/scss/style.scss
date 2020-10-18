@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "nk174";
+  src:url("lib/fonts/18876.ttf");
+  font-style:normal;
+  font-weight:normal;
+}
+
+@import './blocks/_header.scss';
+@import './blocks/_cards.scss';
+@import './blocks/_footer.scss';
+@import './blocks/_main-part.scss';
+@import './blocks/_excursion-item.scss';
+@import './blocks/_contacts.scss';
+@import './blocks/_profile.scss';
+
+
